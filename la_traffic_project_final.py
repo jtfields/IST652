@@ -322,7 +322,7 @@ Some of the visualizations in the analysis section use MapBox which requires an 
 
 # in case html doesn't output locally, check out the html file sample in the included zip
 
-mapbox_token="pk.eyJ1IjoianRmaWVsZHMiLCJhIjoiY2p5dWxxcXJxMDF3ZjNtcm9iYmkyZ2w2ZSJ9.353KtPjbC39lk9uVt3r8PQ"
+mapbox_token="enter token here"
 #data parameters from the file to map
 trace = go.Scattermapbox(lat = laWeather["latitude"], lon = laWeather["longitude"], marker=go.Marker(size=10), mode="markers+text")
 data = [trace]
